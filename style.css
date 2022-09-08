@@ -1,0 +1,470 @@
+/*___________________________________________________________________ PARTE INICIAL */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width:100%;
+    height: 125px;
+    background-color: #e31e2d;
+    float:left;
+}
+
+nav {
+    width: 85%;
+    height: 120px;
+    background-color: #e31e2d;
+    float: left;
+    font-size: 17px;
+}
+
+.logomassoca img{
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+}   
+
+.navbar-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+     padding-left: 12px;
+}
+
+.navbar-toggler{
+    color: #ffa200;
+   
+}
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+   
+
+    
+}
+.nav-link:hover {
+    color: #ffa200;
+    
+}
+.nav-link.home{
+    color: #ffa200;
+}
+
+.catalogo {
+    padding-top: 5px;
+    color: #222121;
+    border:  solid #ffa813;
+    border-radius: 30px;
+    background-color: #ffa200;
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+.catalogo:hover {
+    color: white;
+}
+
+.imgprincipal{
+    width: 100%;
+    height: 100%;
+    background-position: fixed;
+}
+
+@media screen and (max-width:900px){
+    .nav-link {
+        box-shadow: 3px 3px 10px #333 ;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        border: 1px solid black;
+        background-color:#e31e2d;
+        border-radius: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 3px;
+        
+    }
+
+    .catalogo{
+        margin-top: 3px;
+        box-shadow: 3px 3px 10px #333 ;
+    }
+
+        
+    
+
+}
+/*___________________________________________________________________ SEGUNDA PARTE */
+.content {
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding:50px;
+}
+.content h1{
+    width: 100%;
+    height: 20%;
+    float: left;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.content button{
+    width:40%;
+    float: left;
+    border: 1px solid #e31e2d;
+    background-color: #e31e2d;
+    border-radius: 18px;
+    color: #ffffff;
+    margin-left:15px; 
+    margin-top: 120px;
+}
+
+/*___________________________________________________________________ MEDIA QUERY */
+
+
+@media screen and (max-width:900px){
+    .content{
+        width: 100%;
+        padding-top: 10;
+        float:left;
+    }
+    .contentSec{
+        width: 100%;
+        float:left;
+        margin:0 auto;
+        padding:0 auto;
+        text-align:center;
+    }
+    .contentSec img{
+        width:100%;
+    }
+   
+}
+
+/* _______________________________________________________________________________ARTIGO 2 */
+.content2sec button{
+    width:8%;
+    float: left;
+    border: 7px solid #e31e2d;
+    background-color: #e31e2d;
+    border-radius: 18px;
+    color: #ffffff;
+   
+    
+}
+.content2Sec {
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+.content2 {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.content2 h1{
+    width: 100%;
+    height: 20%;
+    float: left;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 100px 50px;
+}
+.content2Sec {
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+@media screen and (max-width:800px){
+
+    .content2sec button{
+        width: 40%;
+        border: 8px solid;
+        margin-right: 40px;
+    }
+    .content2{
+        width:100%;
+        float:left;
+    }
+    .content2 img{
+        width:100%;
+    }
+    .content2sec{
+        width:100%;
+        float:left;
+        text-align: center;
+    }
+
+    .content2catalogo {
+        width: 100%;
+        float: right;
+    }
+    .btn{
+        width: 50%;
+        background-color: #050505;
+    }
+    .localiza{
+            width:100%;
+            float:left;
+            display:table;
+    }
+    .texto{
+        width:100%;
+        float:left;
+        display:table;
+    }
+     
+    .btndonw{
+        width: 100%;
+        padding-right: 100%;
+    }
+
+}
+
+/* _______________________________________________________________________________ARTIGO 3 */
+.content3 {
+    width: 100%;
+    height: 450px;
+    float: left;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #e31e2d;
+}
+.text {
+    width:40%;
+    float:left;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.map {
+    width: 50%;
+    height: 400px;
+    float: right;
+    margin-top: 3%;
+    border: 0;
+    background-color: #e31e2d;
+}
+
+@media screen and (max-width:1000px){
+    .content3{
+        width:100%;
+        float:left;
+        display:table;
+        font-size: 12px;
+    }
+    .text{
+        width:100%;
+        float:left;
+        text-align: center;
+    }
+    .map{
+        width:100%;
+        float:left;
+    }
+    .map iframe{
+        width:100%;
+
+    }
+}
+
+
+/*------------------------------------------EMPRESA.HTML--------------------------------------------*/
+
+.empresa01 {
+    padding-top: 12%;
+    height: 300px;
+    text-align: center;
+    background-color:#e31e2d;
+    color: white;
+}
+
+.empresa{
+    width:100%;
+    height:485px;
+    padding-top: 40px;
+    color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imgfabrica{
+    padding-top: 40px;
+    float: left;
+}
+
+@media screen and (max-width:900px){
+    .empresa{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .imgfabrica{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*------------------------------------------PRODUTOS.HTML--------------------------------------------*/
+
+
+.produtos01 {
+    padding-top: 12%;
+    height: 300px;
+    text-align: center;
+    background-color:#e31e2d;
+    color: white;
+}
+
+img.imgprodutos {
+    width: 200px;
+    height: 300px;
+    padding-top: 20%;
+    transition: all 0.5s;
+    margin-left: 20%;
+    margin: 6%;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+img.imgprodutos:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+@media screen and (max-width:1000px){ 
+   .row{
+    padding: 9%;
+    width: 100%;
+    height: 100%;
+    float: left;
+    border: 1px solid rgb(0, 0, 0) ;
+   } 
+   
+}
+/*------------------------------------------CONTATOS.HTML--------------------------------------------*/
+
+.contato01 {
+    padding-top: 12%;
+    height: 300px;
+    text-align: center;
+    background-color:#e31e2d;
+    color: white;
+}
+
+.contato02 {
+    width: 50%;
+    float: left;
+    
+}   
+.contatosentre {
+    width: 100%;
+    height: 50%;
+    padding-top: 20%;
+    margin-left: 10%;
+    padding-right: 15px;
+    margin-top:8%;
+    margin-bottom: 8%;
+}
+
+/* Meu form */
+.formulariotexto {
+    margin:10px;
+    width: 48%;
+    height: 50%;
+    float: left;
+    padding:25px;
+    border-radius:20px;
+    border:1px solid #ccc;
+    margin-top:8%;
+    margin-bottom: 8%;
+}
+
+/* Margem nas caixas*/
+.formulariotexto input{
+    margin-top:10px;
+    
+}
+
+/* BOTÃO ENVIAR */
+.btn{
+    border-radius: 20px;
+    color:white;
+    background-color: #e31e2d;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media screen and (max-width:1000px){ 
+
+    .contato01{
+        width: 100%; 
+
+    }
+
+    .contatosentre{
+        width: 100%;
+        height: 100%;
+        margin-right: 40px;
+        margin-left: 40px;
+
+    }
+
+    .formulariotexto{
+        width: 90%;
+        height: 100%;
+
+    }
+}
+
+
+/* ____________________FOOTER______________________________________________________ARTIGO 4  */
+
+footer {
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #e31e2d;
+    color: white;
+    float: left;
+    margin: auto;
+    bottom: 0;
+    
+}
+
+.voltaraotopo{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e31e2d;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333 ;
+
+}
+.voltaraotopo:hover{
+    color:#ffa200;
+}
+
+@media screen and (max-width:1000px){ 
+
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
